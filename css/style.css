@@ -1,29 +1,25 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-#full-bg{
-    background-color: orange;
-    width: 100%;
-}
 
-
-footer{
+footer {
     background-color: black;
     color: white;
-    padding:300px;
-    
+    width: 100%;
 }
-body{
+
+body {
     width: 100%;
 
 }
+
 /* .debug{
     border: solid black 2px;
 } */
 
-header{
+header {
     background-color: orange;
     position: fixed;
     top: 0;
@@ -31,133 +27,141 @@ header{
     width: 100%;
     height: 50px;
     z-index: 1000;
-   
+
 }
-#full-shop{
+
+#full-shop {
     margin-top: 90px;
 }
-a{
+
+a {
     padding: 10px;
     display: inline-block;
     text-decoration: none;
     color: white;
 }
-li{
+
+li {
     list-style: none;
 }
-.container{
+
+.container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 5px;
 }
-.d-flex{
+
+.d-flex {
     display: flex;
     flex-flow: row;
 }
-.d-flex-column{
+
+.d-flex-column {
     display: flex;
     flex-flow: column;
 }
-.justify-between{
+
+.justify-between {
     justify-content: space-between;
 
 }
-.align-center{
+
+.align-center {
     align-items: center;
     align-content: center;
 }
 
 /* header */
 
-#logo{
+#logo {
     width: 100px;
 }
-#bag{
-    color-white
+
+#bag {
+    color: white;
 }
 
-img{
-    max-width:100%;
+img {
+    max-width: 100%;
     padding: 5px;
 }
+
 /* main */
-.card-section{
+.card-section {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
 }
-.card{
+
+.card {
     width: calc(100% / 3);
     padding: 10px 0;
     position: relative;
 }
-.shop-card{
+
+.shop-card {
     padding: 10px;
     position: relative;
 }
-.item-card{
+
+.item-card {
     position: relative;
 }
 
-.discount{
-    
+.btn-item {
     position: absolute;
     bottom: 20px;
+    padding: 5px;
+    margin: 15px;
+    color: white;
+    font-size: 0.9em;
+}
+.discount {
     left: 0px;
     background-color: red;
-    padding: 5px;
-    margin: 15px;
-    color: white;
-    font-size: 0.9em;
 }
-.eco{
-   
-    position: absolute;
-    bottom:20px;
+
+
+
+.eco {
     left: 50px;
     background-color: green;
-    padding: 5px;
-    margin: 15px;
-    font-size: 0.9em;
-    color: white;
-
 }
-.eco-6{
-    /* border: solid 1px ; */
-    position: absolute;
-    bottom:20px;
+
+.eco-6 {
     left: 0;
-    padding: 3px;
-    margin:  15px;
-    font-size: 0.9em;
-    color: white;
     background-color: green;
 }
-.before{
+
+.before {
     text-decoration: line-through;
 }
-.heart{
+
+.heart {
     position: absolute;
     top: 0;
     right: 0;
-   padding: 6px;
-   margin: 6px;
-    /* border: solid 1px black; */
+    padding: 6px;
+    margin: 6px;
     background-color: white;
 
 }
-.outlet{
+
+.outlet {
     color: red;
     font-size: 0.8em;
 }
-.before{
+
+.before {
     color: black;
 }
+
 /* footer */
 
-.info{
+.info {
     font-size: 0.8em;
 }
-h4{
+
+h4 {
     padding: 5px;
 }
