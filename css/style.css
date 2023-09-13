@@ -12,15 +12,30 @@
 footer{
     background-color: black;
     color: white;
+    padding:300px;
+    
 }
 body{
     width: 100%;
 
 }
-.debug{
+/* .debug{
     border: solid black 2px;
-}
+} */
 
+header{
+    background-color: orange;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    z-index: 1000;
+   
+}
+main{
+    margin-top: 90px;
+}
 a{
     padding: 10px;
     display: inline-block;
@@ -51,6 +66,9 @@ li{
     align-items: center;
     align-content: center;
 }
+
+/* header */
+
 #logo{
     width: 100px;
 }
@@ -70,7 +88,7 @@ img{
 }
 .card{
     width: calc(100% / 3);
-    padding: 35px;
+    padding: 10px 0;
     position: relative;
 }
 .shop-card{
@@ -82,36 +100,36 @@ img{
 }
 
 .discount{
-    border: solid 1px black;
+    
     position: absolute;
     bottom: 20px;
     left: 0px;
     background-color: red;
-    padding: 3px; 
-    margin: 3px;
-    color: white; 
-    font-size: 0.9em; 
+    padding: 5px;
+    margin: 15px;
+    color: white;
+    font-size: 0.9em;
 }
 .eco{
-    border: solid 1px black;
+   
     position: absolute;
     bottom:20px;
     left: 50px;
     background-color: green;
-    padding: 3px; 
-    margin: 3px; 
-    font-size: 0.9em; 
+    padding: 5px;
+    margin: 15px;
+    font-size: 0.9em;
     color: white;
 
 }
 .eco-6{
-    border: solid 1px black;
+    /* border: solid 1px ; */
     position: absolute;
     bottom:20px;
     left: 0;
-    padding: 3px; 
-    margin: 3px; 
-    font-size: 0.9em; 
+    padding: 3px;
+    margin:  15px;
+    font-size: 0.9em;
     color: white;
     background-color: green;
 }
@@ -122,10 +140,11 @@ img{
     position: absolute;
     top: 0;
     right: 0;
-   padding: 2px;
-    border: solid 1px black;
+   padding: 6px;
+   margin: 6px;
+    /* border: solid 1px black; */
     background-color: white;
-    
+
 }
 .outlet{
     color: red;
@@ -136,3 +155,9 @@ img{
 }
 /* footer */
 
+.info{
+    font-size: 0.8em;
+}
+h4{
+    padding: 5px;
+}
