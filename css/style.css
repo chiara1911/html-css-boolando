@@ -25,6 +25,7 @@ a{
     padding: 10px;
     display: inline-block;
     text-decoration: none;
+    color: white;
 }
 li{
     list-style: none;
@@ -57,7 +58,10 @@ li{
 p.icon{
     display: inline-block;
 }
-
+img{
+    width:100%;
+    padding: 10px;
+}
 /* main */
 .card-section{
     display: flex;
