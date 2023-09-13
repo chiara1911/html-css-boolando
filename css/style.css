@@ -84,17 +84,39 @@ img{
 .discount{
     border: solid 1px black;
     position: absolute;
-    bottom: 0;
-    left: 0;
-    background-color: red;   
+    bottom: 20px;
+    left: 0px;
+    background-color: red;
+    padding: 3px; 
+    margin: 3px;
+    color: white; 
+    font-size: 0.9em; 
 }
 .eco{
     border: solid 1px black;
     position: absolute;
-    bottom: 1;
+    bottom:20px;
     left: 50px;
-    background-color: green; 
+    background-color: green;
+    padding: 3px; 
+    margin: 3px; 
+    font-size: 0.9em; 
+    color: white;
 
+}
+.eco-6{
+    border: solid 1px black;
+    position: absolute;
+    bottom:20px;
+    left: 0;
+    padding: 3px; 
+    margin: 3px; 
+    font-size: 0.9em; 
+    color: white;
+    background-color: green;
+}
+.before{
+    text-decoration: line-through;
 }
 .heart{
     position: absolute;
@@ -104,6 +126,13 @@ img{
     border: solid 1px black;
     background-color: white;
     
+}
+.outlet{
+    color: red;
+    font-size: 0.8em;
+}
+.before{
+    color: black;
 }
 /* footer */
 
