@@ -71,6 +71,10 @@ li {
     align-content: center;
 }
 
+h3{
+    text-transform: uppercase;
+}
+
 /* header */
 
 #logo {
@@ -87,6 +91,20 @@ img {
 }
 
 /* main */
+.heart:hover{
+    color: red;
+    cursor: pointer;
+    
+}
+.second{
+    display: none;
+}
+.shop-card:hover img.second{
+    display: inline-block;
+}
+.shop-card:hover img.first{
+    display:none;
+}
 .card-section {
     display: flex;
     flex-flow: row wrap;
