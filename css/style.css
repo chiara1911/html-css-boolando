@@ -3,9 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
-header{
+#full-bg{
     background-color: orange;
+    width: 100%;
 }
+
 
 /* footer{
     background-color: black;
@@ -45,5 +47,9 @@ li{
     align-content: center;
 }
 #logo{
-    width: 100%;
+    width: 100px;
+}
+
+p.icon{
+    display: inline-block;
 }
