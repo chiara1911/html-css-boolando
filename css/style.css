@@ -73,7 +73,12 @@ img{
 .card{
     width: calc(100% / 3);
     padding: 35px;
+    position: relative;
 }
-
+.heart{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
 /* footer */
 
