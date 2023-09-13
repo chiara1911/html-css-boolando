@@ -9,10 +9,10 @@
 }
 
 
-/* footer{
+footer{
     background-color: black;
     color: white;
-} */
+}
 body{
     width: 100%;
 
@@ -38,6 +38,10 @@ li{
     display: flex;
     flex-flow: row;
 }
+.d-flex-column{
+    display: flex;
+    flex-flow: column;
+}
 .justify-between{
     justify-content: space-between;
 
@@ -59,5 +63,10 @@ p.icon{
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    
 }
+.card{
+    width: calc(100% / 3);
+}
+
+/* footer */
+
