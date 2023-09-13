@@ -54,12 +54,14 @@ li{
 #logo{
     width: 100px;
 }
-
+#bag{
+    color-white
+}
 p.icon{
     display: inline-block;
 }
 img{
-    width:100%;
+    max-width:100%;
     padding: 10px;
 }
 /* main */
