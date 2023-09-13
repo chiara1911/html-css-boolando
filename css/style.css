@@ -53,3 +53,11 @@ li{
 p.icon{
     display: inline-block;
 }
+
+/* main */
+.card-section{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    
+}
