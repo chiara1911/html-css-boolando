@@ -57,12 +57,10 @@ li{
 #bag{
     color-white
 }
-p.icon{
-    display: inline-block;
-}
+
 img{
     max-width:100%;
-    padding: 10px;
+    padding: 5px;
 }
 /* main */
 .card-section{
@@ -75,10 +73,37 @@ img{
     padding: 35px;
     position: relative;
 }
+.shop-card{
+    padding: 10px;
+    position: relative;
+}
+.item-card{
+    position: relative;
+}
+
+.discount{
+    border: solid 1px black;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: red;   
+}
+.eco{
+    border: solid 1px black;
+    position: absolute;
+    bottom: 1;
+    left: 50px;
+    background-color: green; 
+
+}
 .heart{
     position: absolute;
     top: 0;
     right: 0;
+   padding: 2px;
+    border: solid 1px black;
+    background-color: white;
+    
 }
 /* footer */
 
