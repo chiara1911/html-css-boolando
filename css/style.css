@@ -3,3 +3,47 @@
     padding: 0;
     box-sizing: border-box;
 }
+header{
+    background-color: orange;
+}
+
+/* footer{
+    background-color: black;
+    color: white;
+} */
+body{
+    width: 100%;
+
+}
+.debug{
+    border: solid black 2px;
+}
+
+a{
+    padding: 10px;
+    display: inline-block;
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 5px;
+}
+.d-flex{
+    display: flex;
+    flex-flow: row;
+}
+.justify-between{
+    justify-content: space-between;
+
+}
+.align-center{
+    align-items: center;
+    align-content: center;
+}
+#logo{
+    width: 100%;
+}
